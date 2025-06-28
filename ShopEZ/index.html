@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopEZ - One-Stop Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to ShopEZ</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>Featured Products</h2>
+      <div class="product" onclick="addToCart('Smartphone')">
+        <h3>Smartphone</h3>
+        <p>Price: ₹14,999</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product" onclick="addToCart('Headphones')">
+        <h3>Headphones</h3>
+        <p>Price: ₹999</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopEZ. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
